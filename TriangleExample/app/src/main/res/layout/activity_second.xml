@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <ImageView
+        android:id="@+id/triangle"
+        android:layout_width="283dp"
+        android:layout_height="270dp"
+        android:layout_marginTop="231dp"
+        android:layout_marginBottom="115dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/c0f2b9a1de249a0993193554fbdaa8c6" />
+
+    <TextView
+        android:id="@+id/message2"
+        android:layout_width="372dp"
+        android:layout_height="59dp"
+        android:text="In this page we will find the perimeter of the triangle based on the side values you gave."
+        app:layout_constraintBottom_toTopOf="@+id/triangle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.267" />
+
+    <TextView
+        android:id="@+id/perimeter"
+        android:layout_width="46dp"
+        android:layout_height="28dp"
+        android:text="@string/p"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/message2"
+        app:layout_constraintVertical_bias="0.832" />
+
+    <TextView
+        android:id="@+id/perimeterValue"
+        android:layout_width="182dp"
+        android:layout_height="27dp"
+        android:text="value"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/perimeter"
+        app:layout_constraintTop_toBottomOf="@+id/triangle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

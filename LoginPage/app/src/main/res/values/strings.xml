@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">LoginPage</string>
+    <string name="log_in_to_your_account">Log in to your account</string>
+    <string name="get_a_new_experience_of_imagination">Get a new experience of imagination</string>
+    <string name="login">LOG IN</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="welcome_back">Welcome back!</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="new_user">New user?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="remember_me">Remember me</string>
+    <string name="nicol_green">Nicol Green</string>
+    <string name="name_surname">Name Surname</string>
+    <string name="actively_looking">Actively Looking</string>
+    <string name="applied">Applied</string>
+    <string name="_98">98</string>
+    <string name="reviewed">Reviewed</string>
+    <string name="_73">73</string>
+    <string name="contacted">Contacted</string>
+    <string name="_19">19</string>
+    <string name="search">Search</string>
+</resources>

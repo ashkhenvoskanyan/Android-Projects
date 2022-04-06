@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">IDramProject</string>
+    <string name="wallet">Wallet</string>
+    <string name="_0_00_amd">0.00 AMD</string>
+    <string name="order_now">Order Now</string>
+    <string name="textview2">TextView2</string>
+    <string name="textview3">TextView3</string>
+    <string name="textview1">TextView1</string>
+    <string name="home">Home</string>
+    <string name="visa_rocket">Visa Rocket</string>
+    <string name="rocket_line">Rocket line</string>
+    <string name="pay_and_transfer">PAY AND TRANSFER</string>
+    <string name="see_all">See all</string>
+    <string name="give_yourself_a_treat">GIVE YOURSELF A TREAT</string>
+    <string name="qr">QR</string>
+    <string name="nfc">NFC</string>
+    <string name="partner">Partner</string>
+    <string name="phone">phone</string>
+</resources>
